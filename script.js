@@ -1,10 +1,10 @@
-
-
-//nav-submenu
+//네비게이션
 let mainName = document.querySelectorAll('.main_menu ul li a');
 let subMenu = document.querySelector('.sub_menu');
 
-//console.log(mainName, subMenu)
+console.log(mainName, subMenu)
+
+
 mainName.forEach(function(menu){
   menu.addEventListener('mouseenter', function(){
     subMenu.classList.add('active');
@@ -54,23 +54,17 @@ mobileBtn.addEventListener('click', function(){
     //모든 아코디언 내용을 숨김
     accordionItems.forEach(function(i){
       i.querySelector('.hd_accordion_content').style.display = 'none';
+      i.querySelector('.hd_accordion_content').style.transition = '0.5s';
     });
     //클릭한 아코디언 내용만 표시
     content.style.display = 'block'
+    content.style.transition = '0.3s'
   });
 });
 })
 
 
-
-
-//main-visual 스와이퍼
-var swiper = new Swiper(".mainSwiper", {
-  slidesPerview: 'auto',
-  loop:Infinity,
-  autoplay:{delay : 3000}
-})
-
+//팝업창
 let topBtn = document.querySelector('.top');
 let popUp = document.querySelector('.pop_up');
 let popUpBtn = document.querySelector('.pop_up_inner button');
@@ -86,211 +80,48 @@ popUpBtn.addEventListener('click', function(){
 });
 
 
-// Education
-// 큰 탭
-let Tab = document.querySelectorAll('.edu_tap_menu01 a');
-let tabContent = document.querySelectorAll('#edu_tap_content01 > div');
+/* pagination */
+const rowsPerPage = 15;
+const rows = document.querySelectorAll('#subNews_table tbody tr');
+const rowsCount = rows.length;
+const pageCount = Math.ceil(rowsCount/rowsPerPage);
+const numbers = document.querySelector('#number');
 
-for(let i = 0; i < Tab.length; i++){
-  Tab[i].addEventListener('click',function(t){
-    t.preventDefault(); //a의 기본속성 없애기 //클릭했을 때 페이지 이동 방지
-    
-    //클릭된 링크의 href속성에서 id값을 추출
-    let orgTarget = t.target.getAttribute('href');
-    //초기화 시키고
-    let tabTarget = orgTarget.replace('#','');
-    for(let x = 0; x < tabContent.length; x++){
-      tabContent[x].style.display = 'none';
-    }
-    //클릭된 탭에 해당하는 콘텐츠만 보이게함
-    document.getElementById(tabTarget).style.display = 'block';
-    
-    //탭 이동시 말주머니 모양
-    for(let j = 0; j < Tab.length; j++){
-      Tab[j].classList.remove('active'); //모든 클래스 삭제
-      t.target.classList.add('active'); //클릭한 요소만 클래스 추가
-
-    }
-  });//메뉴를 클릭하면 할 일
-  
+//console.log(rows, rowsCount)
+for(let i=1; i<=pageCount; i++){
+  numbers.innerHTML += `<li><a href="">${i}</a></li>`
 }
 
-//작은 탭01 법정무교육(집체)
-let tabTab01 = document.querySelectorAll('.tabs_1_box>.edu_tap_menu02 a'); //링크선택
-let tabtabContent01 = document.querySelectorAll('.tabs_1_box>#edu_tap_content02 > div'); //탭 콘텐츠
-//console.log(tabTab01);
-//console.log(tabtabContent01);
+const numberBtn = numbers.querySelectorAll('a');
 
-for(let i = 0; i < tabTab01.length; i++){
-  tabTab01[i].addEventListener('click',function(e){
-    e.preventDefault(); //a의 기본속성 없애기 //클릭했을 때 페이지 이동 방지
-    
-    //클릭된 링크의 href속성에서 id값을 추출
-    let orgTarget = e.target.getAttribute('href');
-    //초기화 시키고
-    let tabTarget = orgTarget.replace('#','');
-    for(let x = 0; x < tabtabContent01.length; x++){
-      tabtabContent01[x].style.display = 'none';
+numberBtn.forEach((item, idx) => {
+  item.addEventListener('click', (e) => {
+    e.preventDefault();
+    for(let nb of numberBtn){
+      nb.classList.remove('active');
     }
-    //클릭된 탭에 해당하는 콘텐츠만 보이게함
-    document.getElementById(tabTarget).style.display = 'block';
-    
-    //탭 이동시 흰배경 생성
-    for(let j = 0; j < tabTab01.length; j++){
-      tabTab01[j].classList.remove('activeSub'); //모든 클래스 삭제
-      e.target.classList.add('activeSub'); //클릭한 요소만 클래스 추가
-    }
-    
-  });
+    e.target.classList.add('active');
+    displayRow(idx);
+  })
+})
+
+numberBtn[0].classList.add('active');
+//클릭ㅇ이벤트 active 추가
+//클릭 될 때마다 해당 idx에 있는 목록만 보여주기
+
+function displayRow(idx){
+  let start = idx * rowsPerPage;
+  let end = start + rowsPerPage;
+
+  let rowArray = [...rows];
+
+  for(let ra of rowArray){
+    ra.style.display = 'none'
+  }
+  newRows = rowArray.slice(start, end);
+
+  for(let nr of newRows){
+    nr.style.display = '';
+  }
 }
-
-//작은 탭02 국가기간전략훈련
-let tabTab02 = document.querySelectorAll('.tabs_2_box>.edu_tap_menu02 a'); //링크선택
-let tabtabContent02 = document.querySelectorAll('.tabs_2_box>#edu_tap_content02 > div'); //탭 콘텐츠
-console.log(tabTab02);
-console.log(tabtabContent02);
-for(let i = 0; i < tabTab02.length; i++){
-  tabTab02[i].addEventListener('click',function(e){
-    e.preventDefault(); //a의 기본속성 없애기 //클릭했을 때 페이지 이동 방지
-    
-    //클릭된 링크의 href속성에서 id값을 추출
-    let orgTarget = e.target.getAttribute('href');
-    //초기화 시키고
-    let tabTarget = orgTarget.replace('#','');
-    for(let x = 0; x < tabtabContent02.length; x++){
-      tabtabContent02[x].style.display = 'none';
-    }
-    //클릭된 탭에 해당하는 콘텐츠만 보이게함
-    document.getElementById(tabTarget).style.display = 'block';
-    
-    //탭 이동시 흰배경 생성
-    for(let j = 0; j < tabTab02.length; j++){
-      tabTab02[j].classList.remove('activeSub'); //모든 클래스 삭제
-      e.target.classList.add('activeSub'); //클릭한 요소만 클래스 추가
-    }
-    
-  });
-}
-
-//작은 탭03 기능인력양성교육
-let tabTab03 = document.querySelectorAll('.tabs_3_box>.edu_tap_menu02 a'); //링크선택
-let tabtabContent03 = document.querySelectorAll('.tabs_3_box>#edu_tap_content02 > div'); //탭 콘텐츠
-//console.log(tabTab03);
-//console.log(tabtabContent03);
-for(let i = 0; i < tabTab03.length; i++){
-  tabTab03[i].addEventListener('click',function(e){
-    e.preventDefault(); //a의 기본속성 없애기 //클릭했을 때 페이지 이동 방지
-    
-    //클릭된 링크의 href속성에서 id값을 추출
-    let orgTarget = e.target.getAttribute('href');
-    //초기화 시키고
-    let tabTarget = orgTarget.replace('#','');
-    for(let x = 0; x < tabtabContent03.length; x++){
-      tabtabContent03[x].style.display = 'none';
-    }
-    //클릭된 탭에 해당하는 콘텐츠만 보이게함
-    document.getElementById(tabTarget).style.display = 'block';
-    
-    //탭 이동시 흰배경 생성
-    for(let j = 0; j < tabTab03.length; j++){
-      tabTab03[j].classList.remove('activeSub'); //모든 클래스 삭제
-      e.target.classList.add('activeSub'); //클릭한 요소만 클래스 추가
-    }
-    
-  });
-}
-
-//첫 번째 탭 콘텐츠를 기본적으로 보이게 설정
-document.getElementById('tabs_1').style.display = 'block';
-document.getElementById('tabs_tabs_1').style.display = 'block';
-
-
-
-
-//info-faq
-//baaner 슬라이드
-var swiper = new Swiper(".bannerSwiper", {
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  loop : true,
-  autoplay:{delay : 3000}
-});
-
-
-//아코디언
-const accordionHeads = document.querySelectorAll('.accordion_head');
-
-accordionHeads.forEach(function(head) {
-  head.addEventListener('click', function() {
-    let content = head.nextElementSibling; // 바로 다음 요소 선택
-    let arrowIcon = head.querySelector('i.fa-angle-up');
-
-    // 모든 아코디언을 접음
-    document.querySelectorAll('.accordion_text').forEach(function(text) {
-      text.style.height = '0';
-    });
-    document.querySelectorAll('.accordion_head i.fa-angle-up').forEach(function(icon) {
-      icon.classList.remove('active');
-    });
-
-    // 클릭한 항목만 펼침
-    if (content.style.height === '0px' || content.style.height === '') {
-      content.style.height = content.scrollHeight + 'px';
-      arrowIcon.classList.add('active');
-    } else {
-      content.style.height = '0';
-      arrowIcon.classList.remove('active');
-    }
-  });
-});
-
-//두 번째 질문 보이기
-document.querySelector('.info-faq_accordion>div:nth-child(3) .accordion_text').style.height = '244px'
-
-
-
-
-
-//news
-//news 스와이퍼
-var swiper = new Swiper(".newsSwiper", {
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  slidesPerView : 'auto',
-  spaceBetween : 32,
-  loop : true,
-  initialSlide : 0,
-  
-});
-
-// 큰 탭
-let newsTab = document.querySelectorAll('.news_tap_menu a');
-let newsContent = document.querySelectorAll('#news_tap_content > div');
-
-
-for(let i = 0; i < newsTab.length; i++){
-  newsTab[i].addEventListener('click',function(m){
-    m.preventDefault(); //a의 기본속성 없애기 //클릭했을 때 페이지 이동 방지
-
-    //클릭된 링크의 href속성에서 id값을 추출
-    let orgTarget = m.target.getAttribute('href');
-    //초기화 시키고
-    let tabTarget = orgTarget.replace('#','');
-    for(let x = 0; x < newsContent.length; x++){
-      newsContent[x].style.display = 'none';
-    }
-    //클릭된 탭에 해당하는 콘텐츠만 보이게함
-    document.getElementById(tabTarget).style.display = 'block';
-
-    for(let j = 0; j < newsTab.length; j++){
-      newsTab[j].classList.remove('active'); //모든 클래스 삭제
-      m.target.classList.add('active'); //클릭한 요소만 클래스 추가
-    }
-  });//메뉴를 클릭하면 할 일
-  
-}
-//첫 번째 탭 콘텐츠를 기본적으로 보이게 설정
-document.getElementById('news_tabs_1').style.display = 'block';
+displayRow(0)
