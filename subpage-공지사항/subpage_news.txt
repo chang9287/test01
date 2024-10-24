@@ -1,0 +1,40 @@
+<header>
+</header>
+
+<pop up>
+</pop up>
+
+
+<section subNews_title>
+	<p>
+	<h1>
+	<img>
+</section subNews_title>
+
+
+<section subNews_mainContent>
+	.subNews_inner
+		.subNews_community
+			h1
+			ul
+				li>a
+		.subNews_content
+			.subNews_contentTitle
+			.subNews_search
+			.subNews_taps
+				ul .subNews_tap_menu
+					li > a #subNews_tabs_1
+				#subNews_tap_content
+					#subNews_tabs_1
+					#subNews_tabs_2
+					#subNews_tabs_3
+					#subNews_tabs_4
+					#subNews_tabs_5
+					
+		
+</section subNews_mainContent>
+
+
+
+<footer>
+</footer>
