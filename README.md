@@ -66,8 +66,9 @@
 
 
 <br />
-## 📂 링크
-- <a href="https://www.figma.com/board/6oFqffoL10iF5YL44EXjRf/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=0-1&t=iUUONf4VBQp1ZFc1-1">브레인스토밍</a>
-- <a href="https://www.figma.com/design/3dSrkzoGMp1fkVDeFEyA8Y/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%95%88%EC%B0%BD%EA%B8%B0?node-id=0-1&t=rVMuV8teMeW7mCPD-1">와이어프레임</a>
-- <a href="https://www.figma.com/design/3dSrkzoGMp1fkVDeFEyA8Y/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%95%88%EC%B0%BD%EA%B8%B0?node-id=34-39&t=rVMuV8teMeW7mCPD-1">스타일가이드</a>
+## 📂 링크 
+<br />
+- <a href="https://www.figma.com/board/6oFqffoL10iF5YL44EXjRf/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=0-1&t=iUUONf4VBQp1ZFc1-1">브레인스토밍</a> <br />
+- <a href="https://www.figma.com/design/3dSrkzoGMp1fkVDeFEyA8Y/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%95%88%EC%B0%BD%EA%B8%B0?node-id=0-1&t=rVMuV8teMeW7mCPD-1">와이어프레임</a> <br />
+- <a href="https://www.figma.com/design/3dSrkzoGMp1fkVDeFEyA8Y/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%95%88%EC%B0%BD%EA%B8%B0?node-id=34-39&t=rVMuV8teMeW7mCPD-1">스타일가이드</a> <br />
 - <a href="https://www.kicte.or.kr/portal/index/mainInitAction.do">리뉴얼 사이트</a>
