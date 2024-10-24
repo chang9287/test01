@@ -2,7 +2,7 @@
   <br />
   <img src="./images/project_logo.png" alt="Project" height="200px" />
   <br />
-  <h1>프로젝트 제목</h1>
+  <h1>공공기관 리뉴얼</h1>
   <a href="#">
   <img src="https://img.shields.io/badge/GitHub%20Pages-Active-AEF359?&logo=github&logoColor=white" alt="GitHub-Pages" />
   </a>
@@ -11,12 +11,10 @@
 
 ## 목차
 
-1. **웹 서비스 소개**
-2. **기술 스택**
-3. **주요 기능**
-4. **주요 페이지**
-5. **개발 일정**
-6. **실행 방법**
+1. **기술 스택**
+2. **주요 기능**
+3. **주요 페이지**
+
 
 <br />
 
@@ -51,9 +49,10 @@
 
 ## 💡 주요 기능
 
-- 기능 1
-- 기능 2
-- 기능 3
+- Swiper Slide
+- Pagination
+- Accordion
+- Tab / Tab in Tab
 
 <br />
 
@@ -65,26 +64,3 @@
 
 <br />
 
-## 📅 개발 일정
-
-<br />
-
-## 💻 실행 방법
-
-1. **실행 1**
-
-```bash
-$
-```
-
-2. **실행 2**
-
-```bash
-$
-```
-
-3. **실행 3**
-
-```bash
-$
-```
