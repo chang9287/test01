@@ -15,19 +15,6 @@
 2. **주요 기능**
 3. **주요 페이지**
 
-
-<br />
-
-## 💁🏻‍♂ 웹 서비스 소개
-
-&nbsp;&nbsp;웹 서비스 소개란입니다.
-
-<br />
-
-[**🔗 배포된 웹 서비스로 바로가기 Click !**](#) 👈
-
-> 새 창 열기 방법 : CTRL+click (on Windows and Linux) | CMD+click (on MacOS)
-
 <br />
 
 ## 🛠 기술 스택
@@ -58,9 +45,9 @@
 
 ## 📄 주요 페이지
 
-|                               메인 페이지                               |                               서브 페이지                               |
-| :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| <img src="images/mainPage.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_subNews.png" alt="Sample Page" height="250px" /> |
+|                               메인 페이지                               |                               서브 페이지                               |                               서브 페이지                               |
+| :---------------------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
+| <img src="images/mainPage.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_subNews.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_subNews.png" alt="Sample Page" height="250px" /> |
 
 <br />
 
