@@ -1,8 +1,12 @@
 <div align="center">
   <br />
-  <img src="./images/project_logo.png" alt="Project" height="200px" />
+  <div align= "center">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&text=공공기관%20리뉴얼&animation=fadeIn&fontColor=242424&fontSize=40" />
+    </div>
+    
+    
   <br />
-  <h1>공공기관 리뉴얼</h1>
+  
   <a href="https://github.com/chang9287/test01.git">
   <img src="https://img.shields.io/badge/GitHub%20Pages-Active-AEF359?&logo=github&logoColor=white" alt="GitHub-Pages" />
   </a>
@@ -24,9 +28,9 @@
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?&logo=javascript&logoColor=white)
   
 
-**Design**
+**program**
 
-- ![Figma](https://img.shields.io/badge/Figma-F24E1E?&logo=Figma&logoColor=white)
+- ![Vscode](https://img.shields.io/badge/Vscode-007ACC?&logo=visualstudiocode&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?&logo=Figma&logoColor=white)
 
 **ETC**
 
