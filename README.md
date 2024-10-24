@@ -2,8 +2,8 @@
   <br />
   <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&text=공공기관%20리뉴얼&animation=fadeIn&fontColor=242424&fontSize=40" />
-    </div>
-    
+  </div>
+  <div align= "center"><h3>작업자 : 안창기</h3></div>  
     
   <br />
   
@@ -18,6 +18,8 @@
 1. **기술 스택**
 2. **주요 기능**
 3. **주요 페이지**
+4. **페이지 설명**
+5. **링크**
 
 <br />
 
@@ -55,3 +57,25 @@
 
 <br />
 
+## 📌 페이지 설명 
+|                               메인 페이지                               |                               서브 페이지                               |
+| :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
+|    대표기능 : 슬라이더(main Visual, banner), 아코디언, Tab 안에 Tab기능    |  대표기능 : 아코디언과 페이지네이션                                        |
+|    검색기능 : 사용자가 원하는 정보를 쉽게 찾을 수 있도록 돕는 기능           |  공지사항에 대한 좀 더 상세하고 세부적인 내용을 제공                        |
+|   다운로드 기능 : 사용자가 원하는 파일을 신속히 다운로드 할 수 있도록 돕는 기능 |                                                                       |
+### 메인 페이지 
+- 대표 기능: 메인 페이지에서 사용한 핵심 기능을 나열. 예를 들어, 슬라이더, 주요 공지사항, 배너 등.
+- 사용자 인터페이스: 사용자가 메인 페이지에서 처음으로 접하는 인터페이스의 특징과 핵심 기능들.
+- 검색 및 네비게이션 기능: 사용자가 원하는 정보를 쉽게 찾을 수 있도록 돕는 기능들.
+
+### 서브 페이지 기능
+
+- 세부 내용 제공: 서브 페이지에서 제공하는 구체적인 정보나 자료들을 설명.(예를 들어, 서비스 소개, FAQ, 정책 자료)
+- 카테고리 별 페이지: 서브 페이지에서 카테고리 별로 나뉘어 있는 기능들, 예를 들어 각 부서 소개, 로그인기능, 문서 다운로드 등
+
+<br />
+## 📂 링크
+- <a href="https://www.figma.com/board/6oFqffoL10iF5YL44EXjRf/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=0-1&t=iUUONf4VBQp1ZFc1-1">브레인스토밍</a>
+- <a href="https://www.figma.com/design/3dSrkzoGMp1fkVDeFEyA8Y/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%95%88%EC%B0%BD%EA%B8%B0?node-id=0-1&t=rVMuV8teMeW7mCPD-1">와이어프레임</a>
+- <a href="https://www.figma.com/design/3dSrkzoGMp1fkVDeFEyA8Y/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%95%88%EC%B0%BD%EA%B8%B0?node-id=34-39&t=rVMuV8teMeW7mCPD-1">스타일가이드</a>
+- <a href="https://www.kicte.or.kr/portal/index/mainInitAction.do">리뉴얼 사이트</a>
