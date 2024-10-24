@@ -47,7 +47,7 @@
 
 |                               메인 페이지                               |                               메인 페이지 - 모바일                      |                               서브 페이지 - 메인                         |                               서브 페이지 - 테블릿                              |                               서브 페이지 -모바일                               |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| <img src="images/mainPage.png" alt="Sample Page" height="250px" /> | <img src="mainPage_responsive.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_subNews.png" alt="Sample Page" height="250px" /> | <img src="subPage_tablet.png" alt="Sample Page" height="250px" /> | <img src="subPage_mobile.png" alt="Sample Page" height="250px" /> |
+| <img src="images/mainPage.png" alt="Sample Page" height="250px" /> | <img src="images/mainPage_responsive.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_subNews.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_tablet.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_mobile.png" alt="Sample Page" height="250px" /> |
 
 <br />
 
