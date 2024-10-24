@@ -30,17 +30,16 @@
 ## 🛠 기술 스택
 
 **Front-end**
-
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?&logo=javascript&logoColor=white)
 
-**Design**
 
-- <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
+**Design**
+- ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white)
+
 
 **ETC**
-
 - ![GitHub](https://img.shields.io/badge/-GitHub-181717?&logo=github&logoColor=white)
-- 
+  
 <br />
 
 ## 💡 주요 기능
