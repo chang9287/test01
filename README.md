@@ -42,7 +42,6 @@
 **Design**
 
 - ![Figma](https://img.shields.io/badge/Figma-F24E1E?&logo=Figma&logoColor=white)
-- ![Flask](https://img.shields.io/badge/-Flask-333?&logo=flask&logoColor=white)
 
 **ETC**
 
