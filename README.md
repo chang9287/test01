@@ -2,8 +2,8 @@
   <br />
   <img src="./images/project_logo.png" alt="Project" height="200px" />
   <br />
-  <h1>프로젝트 제목</h1>
-  <a href="#">
+  <h1>공공기관 리뉴얼</h1>
+  <a href="https://github.com/chang9287/test01.git">
   <img src="https://img.shields.io/badge/GitHub%20Pages-Active-AEF359?&logo=github&logoColor=white" alt="GitHub-Pages" />
   </a>
   <br />
@@ -37,9 +37,10 @@
 
 ## 💡 주요 기능
 
-- 기능 1
-- 기능 2
-- 기능 3
+- swiper slide
+- accordion
+- tab
+- pagination
 
 <br />
 
