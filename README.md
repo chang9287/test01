@@ -60,7 +60,7 @@
 
 |                               메인 페이지                               |                               서브 페이지                               |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| <img src="./images/sample_page.png" alt="Sample Page" height="250px" /> | <img src="./images/sample_page.png" alt="Sample Page" height="250px" /> |
+| <img src="images/mainPage.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_subNews.png" alt="Sample Page" height="250px" /> |
 
 <br />
 
