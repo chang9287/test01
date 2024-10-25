@@ -1155,7 +1155,10 @@ header{
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.205);
   background-color: #fff;
 }
-.info-faq_accordion h2{
+.info-faq_accordion_title{
+  position: relative;
+}
+.info-faq_accordion_title h2{
   font-size: 24px;
   height: 100px;
   
@@ -1165,12 +1168,42 @@ header{
   color: #fff;
   line-height: 100px;
 }
+.info-faq_btn{
+  border: none;
+  background-color: #416081;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+}
+.info-faq_btn a{
+  display: block;
+  width: 28px;
+  height: 28px;
+  font-size: 35px;
+  color: #F5F5F5;
+  
+}
+.info-faq_btn a:hover i{
+  transform: rotate(90deg);
+}
+.info-faq_btn a i{
+  transition: 0.3s;
+}
+
+
+
+
+
+
 
 .accordion_content{
-  padding: 0 30px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 .accordion_content .accordion_head{
+  width: 100%;
   cursor: pointer;
   height: 35px;
 }

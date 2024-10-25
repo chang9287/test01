@@ -234,7 +234,7 @@
     
   }
   .edu_tap_menu01 li a{
-    font-size: 17px;
+    font-size: 15px;
     height: 50px;
     padding: 0 1px;
     letter-spacing: -0.5px;
@@ -372,11 +372,11 @@
     width: 100%;
     height: 300px;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .newsSwiper .swiper-wrapper .swiper-slide{
     
-    width: 300px;
+    width: 80%;
     height: 150px;
     padding: 0 30px;
     
@@ -523,18 +523,28 @@
   .info-faq_accordion{
     margin-top: 0;
   }
-  .info-faq_accordion h2{
+  .info-faq_accordion_title h2{
     font-size: 20px;
     height: 50px;
     line-height: 50px;
     padding-left: 0;
     text-align: center;
   }
-  .accordion_content{}
-  .accordion_content .accordion_head{}
+
+  .info-faq_btn a{
+    font-size: 28px;
+  }
+
+
+  .accordion_content{
+    width: 95%;
+  }
+  .accordion_content .accordion_head{
+    width: 100%;
+  }
   .accordion_content .accordion_head i{}
   .accordion_content .accordion_head span{
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .info-faq_accordion>div:nth-child(6) .accordion_head span{
@@ -551,7 +561,7 @@
 
   /* 아코디언 */
   .info-faq_accordion{
-    height: 490px;
+    height: 500px;
   }
   /* 아코디언 답변 */
   .accordion_text i{
@@ -742,7 +752,38 @@
     font-size: 20px;
   }
 
-
-
+}
+@media screen and (max-width : 390px){
+  .newsSwiper{
+    width: 95%;
+    height: 300px;
+    padding: 0;
+    
+    
+  }
+  
+  .newsSwiper .swiper-wrapper{
+    
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-left: 4px;
+  }
+  .newsSwiper .swiper-wrapper .swiper-slide{
+    
+    width: 80%;
+    height: 150px;
+    padding: 0 30px;
+    
+  }
+  .newsSwiper .swiper-wrapper .swiper-slide a span{
+    font-size: 16px;
+    margin: 30px 10px 0 10px;
+  }
+  
+  .newsSwiper .swiper-wrapper .swiper-slide i{
+    font-size: 14px;
+  }
 
 }
+

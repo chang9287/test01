@@ -364,8 +364,8 @@ header{
   background-color: #AF0B32;
 }
 
-/* subNews_title 제목부분 */
-.subNews_title{
+/* subfaq_title 제목부분 */
+.subfaq_title{
   position: relative;
 }
 
@@ -395,18 +395,19 @@ header{
 .resTitle h1{font-size: 32px;}
 
 /* 이미지 */
-.subNews_title>img{
+.subfaq_title>img{
   width: 100%;
   height: 250px;
 }
 
 
 /* 메인 콘텐츠 */
-.subNews_mainContent{
+.subfaq_mainContent{
   width: 100%;
+  
 }
 
-.subNews_inner{
+.subfaq_inner{
   width: 1280px;
   margin: 50px auto 0;
   
@@ -414,10 +415,10 @@ header{
 }
 
 /* 커뮤니티 */
-.subNews_community{
+.subfaq_community{
   width: 200px;
   height: 700px;
-  
+  z-index: 20;
   border-radius: 50px 0 50px 0;
   background-color: #416081;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
@@ -425,7 +426,7 @@ header{
   top: -3%;
   left: -10%;
 }
-.subNews_community h1{
+.subfaq_community h1{
   font-size: 28px;
   width: 200px;
   height: 100px;
@@ -436,17 +437,17 @@ header{
   background-color: #fff;
   box-sizing: border-box;
 }
-.subNews_community ul{
+.subfaq_community ul{
   margin-top: 20px;
 }
-.subNews_community ul li{
+.subfaq_community ul li{
   list-style: none;
   width: 70%;
   margin: 5px 0 0 30px;
   overflow: hidden;
   
 }
-.subNews_community ul li a{
+.subfaq_community ul li a{
   display: block;
   text-decoration: none;
   color: black;
@@ -456,14 +457,14 @@ header{
   
 }
 
-.subNews_community ul li a span{
+.subfaq_community ul li a span{
   padding: 0 5px 5px 0;
   position: relative;
   font-weight: bold;
   color: #fff;
   
 }
-.subNews_community ul li a span::after{
+.subfaq_community ul li a span::after{
   content: '';
   position: absolute;
   bottom: 0;
@@ -472,22 +473,22 @@ header{
   width: 0;
   transition: 0.5s;
 }
-.subNews_community ul li:nth-child(1) a span::after{
+.subfaq_community ul li:nth-child(1) a:hover span::after{
   width: 70px;
 }
-.subNews_community ul li:nth-child(2) a:hover span::after{
+.subfaq_community ul li:nth-child(2) a:hover span::after{
   width: 55px;
 }
-.subNews_community ul li:nth-child(3) a:hover span::after{
+.subfaq_community ul li:nth-child(3) a span::after{
   width: 105px;
 }
-.subNews_community ul li:nth-child(4) a:hover span::after{
+.subfaq_community ul li:nth-child(4) a:hover span::after{
   width: 85px;
 }
-.subNews_community ul li:nth-child(5) a:hover span::after{
+.subfaq_community ul li:nth-child(5) a:hover span::after{
   width: 70px;
 }
-.subNews_community ul li:nth-child(6) a:hover span::after{
+.subfaq_community ul li:nth-child(6) a:hover span::after{
   width: 115px;
 }
 
@@ -495,22 +496,22 @@ header{
 
 
 /* 공지사항 콘텐츠 */
-.subNews_content{
+.subfaq_content{
   width: 1050px;
   
   margin: 60px auto 0;
-  
+  padding-bottom: 120px;
 } 
 
 /* 공지사항 콘텐츠 제목 */
-.subNews_contentTitle{
+.subfaq_contentTitle{
   display: flex;
   height: 65px;
   border-bottom: 2px solid #DDDDDD;
   padding-top: 50px;
 }
 /* 제목 */
-.subNews_contentTitle h1{
+.subfaq_contentTitle h1{
   
   font-size: 32px;
   height: 40px;
@@ -519,25 +520,25 @@ header{
 }
 
 /* 경로 */
-.subNews_contentTitle .subNews_route{
+.subfaq_contentTitle .subfaq_route{
   
   margin-left: auto;
   height: 40px;
   line-height: 50px;
 }
-.subNews_contentTitle .subNews_route i{font-size: 15px;}
-.subNews_contentTitle .subNews_route span{
+.subfaq_contentTitle .subfaq_route i{font-size: 15px;}
+.subfaq_contentTitle .subfaq_route span{
   font-size: 15px;
 }
 
 /* 아이콘 */
-.subNews_contentTitle .subNews_link{
+.subfaq_contentTitle .subfaq_link{
   width: 8%;
   
   margin: 0 10px 0 20px;
   height: 50px;
 }
-.subNews_contentTitle .subNews_link ul{
+.subfaq_contentTitle .subfaq_link ul{
 
   display: flex;
   align-items: center;
@@ -545,7 +546,7 @@ header{
   gap: 15px;
   height: inherit;
 }
-.subNews_contentTitle .subNews_link ul li{
+.subfaq_contentTitle .subfaq_link ul li{
   list-style: none;
   border-radius: 50px;
   width: 30px;
@@ -553,28 +554,28 @@ header{
   background-color: #F7F8FA;
   transition: 0.5s;
 }
-.subNews_contentTitle .subNews_link ul li a{
+.subfaq_contentTitle .subfaq_link ul li a{
   display: block;
   width: 30px;
   height: 30px;
   line-height: 30px;
   text-align: center;
 }
-.subNews_contentTitle .subNews_link ul li a i{
+.subfaq_contentTitle .subfaq_link ul li a i{
   color: #45495B;
   transition: 0.5s;
   font-size: 15px;
 }
-.subNews_contentTitle .subNews_link ul li:hover{
+.subfaq_contentTitle .subfaq_link ul li:hover{
   background-color: #416081;
   color: #fff;
 }
-.subNews_contentTitle .subNews_link ul li:hover a i{
+.subfaq_contentTitle .subfaq_link ul li:hover a i{
   color: #fff;
 }
 
 /* 검색창 */
-.subNews_search{
+.subfaq_search{
   margin: 30px auto;
   width: 65%;
   height: 50px;
@@ -585,7 +586,7 @@ header{
 
 }
 /* 검색어 선택창 */
-.subNews_search select{
+.subfaq_search select{
   width: 25%;
   height: 40px;
   margin-right: 3px;
@@ -595,14 +596,14 @@ header{
   padding-right: 10px;
   font-size: 15px;
 }
-.subNews_search select:focus{
+.subfaq_search select:focus{
   outline: none;
 }
-.subNews_search select option{
+.subfaq_search select option{
   font-size: 15px;
 }
 /* 검색어 입력창 */
-.subNews_search input{
+.subfaq_search input{
   width: 50%;
   height: 40px;
   box-sizing: border-box;
@@ -611,16 +612,16 @@ header{
   font-size: 16px;
   transition: 0.05s;
 }
-.subNews_search input::placeholder{
+.subfaq_search input::placeholder{
   height: 30px;
   line-height: 40px;
 }
-.subNews_search input:focus{
+.subfaq_search input:focus{
   outline: none;
   border-bottom: 2px solid #45495B;
 }
 /* 돋보기 버튼 */
-.subNews_search button{
+.subfaq_search button{
   width: 10%;
   height: 40px;
   margin-left: -1px;
@@ -629,180 +630,115 @@ header{
   border-radius: 0 50px 50px 0;
   cursor: pointer;
 }
-.subNews_search button i{
+.subfaq_search button i{
   font-size: 20px;
   color: #fff;
 }
 
-
-/* 탭 메뉴 */
-.subNews_taps{
+.subfaq_accordion{
   width: 100%;
-  position: relative;
+  
+}
+/* 아코디언 */
+#accordion_container{
+  margin: 0 auto;
+  width: 90%;
+  border-top: 3px solid #416081;
   
   
 }
-#subNews_table{
-  display: block;
-  text-align: center;
-  border-collapse: collapse;
-
-  width: 100%;
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.accordion_text{
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
   
 }
+.accordion_text:hover .accordion_header>div:first-child>span{
+  background-color: crimson;
+  color: #fff;
+}
 
-/* thead */
-#subNews_table thead{
-  border-top: 3px solid #45495B;
-  color: #606060;
+/* 질문 */
+.accordion_header{
   font-weight: bold;
-  width: 960px;
-   
+  cursor: pointer;
+  display: flex;
+  padding: 10px 0;
 }
-
-#subNews_table thead tr{
-
-  margin: 0 auto;
+/* Q마크 */
+.accordion_header>div:first-child{
+  margin-left: 30px;
+}
+.accordion_header>div:first-child>span{
+  border: 2px solid crimson;
   display: block;
-}
-#subNews_table thead tr td{
-  
-  height: 40px;
-  padding: 5px 5px;
-}
-
-/* thead - 번호 */
-#subNews_table thead tr td:nth-child(1){
-  width: 50px;
-  
-}
-/* thead - 제목 */
-#subNews_table thead tr td:nth-child(2){
-  width: 420px;
-  
-}
-/* thead - 구분 */
-#subNews_table thead tr td:nth-child(3){
-  width: 150px;
-  
-}
-/* thead - 조회수 */
-#subNews_table thead tr td:nth-child(4){
-  width: 50px;
-  
-}
-/* thead - 등록일 */
-#subNews_table thead tr td:nth-child(5){
-  width: 150px;
-  
-}
-/* thead - 첨부파일 */
-#subNews_table thead tr td:nth-child(6){
-  width: 80px;
-  
-}
-
-#subNews_table tbody{
-  width: 960px;
-  
-}
-#subNews_table tbody tr{
-  border-bottom: 2px solid #DDDDDD;
-  margin: 0 auto;
-  
-}
-#subNews_table tbody tr td{
-  
-  padding: 12px 5px;
-  
-  
-}
-
-/* 번호 라인 */
-#subNews_table tbody tr td:nth-child(1){
-  color: #777;
-  font-weight: 500;
-  width: 50px;
-  
-}
-
-/* 제목 라인 */
-#subNews_table tbody tr td:nth-child(2){
-  width: 420px;
-  text-align: left;
-  text-indent: 10px;
-  
-}
-
-#subNews_table tbody tr td:nth-child(2) a{
-  display: block;
-  width: 390px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  color: #323232;
-  font-weight: 600;
-  
-  
-  text-decoration: none;
-}
-
-/* 구분 라인 */
-#subNews_table tbody tr td:nth-child(3){
-  color: #777;
-  font-weight: 500;
-  width: 150px;
-  
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-/* 조회수 라인 */
-#subNews_table tbody tr td:nth-child(4){
-  color: #777;
-  width: 50px;
-  
-}
-/* 등록일 라인 */
-#subNews_table tbody tr td:nth-child(5){
-  color: #777;
-  width: 150px;
-  
-}
-
-/* 첨부파일 라인 */
-#subNews_table tbody tr td:nth-child(6){
-  width: 80px;
-  
-}
-#subNews_table tbody tr td:nth-child(6) a{
-  display: block;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
-  width: 23px;
-  height: 23px;
-  margin: 0 auto;
-  
-}
-#subNews_table tbody tr td:nth-child(6) a img{
-  width: 100%;
+  border-radius: 50%;
+  color: crimson;
+  transition: 0.5s;
 }
 
 
 
+/* 질문내용 */
+.accordion_header>div:last-child{
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 20px;
+  color: #535353;
+}
+
+/* 답변 */
+.accordion_content{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-top: 1px solid #ccc;
+  display: flex;
+  background-color: #F5F5F5;
+  border-radius: 0 0 20px 20px;
+}
+/* A마크 */
+.accordion_content>div:first-child{
+  padding: 10px 10px 0 30px;
+}
+.accordion_content>div:first-child>span{
+  display: block;
+  font-size: 22px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid crimson;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: crimson;
+}
+/* 답변내용 */
+.accordion_content>div:last-child{
+  padding: 20px 10px;
+  color: #323232;
+}
+
+.active .accordion_content{
+  max-height: 700px;
+}
+.accordion_content p{
+  margin: 10px 0;
+}
 
 
 /* 페이지네이션 */
 .pagination{
-  
+  display: block;
   margin: 50px auto;
-  width: 55%;
+  width: 25%;
   height: 35px;
-  display: flex;
-
 }
 #number{
   list-style: none;
@@ -828,6 +764,7 @@ header{
   color: #323232;
   font-size: 15px;
   margin: 0 auto;
+  font-weight: 500;
 }
 #number li a:hover{
   background-color: #F7F8FA;
@@ -836,6 +773,7 @@ header{
   background-color: #416081;
   color: #fff;
   font-weight: bold;
+  
 }
 
 

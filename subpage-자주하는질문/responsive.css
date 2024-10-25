@@ -141,7 +141,7 @@
   }
 
 
-  /* subNews_title 제목부분 */
+  /* subfaq_title 제목부분 */
   .webTitle{
     display: none;
   }
@@ -152,221 +152,123 @@
   
 
   /* 메인 콘텐츠 */
-  .subNews_inner{
+  .subfaq_inner{
     width: 100%;
     height: auto;
   }
 
-  .subNews_community{
+  .subfaq_community{
     display: none;
   }
 
   /* 공지사항 콘텐츠 */
-  .subNews_content{
+  .subfaq_content{
     width: 95%;
     height: auto;
   }
 
   /* 공지사항 콘텐츠 제목 */
-  .subNews_contentTitle{
+  .subfaq_contentTitle{
     display: flex;
     justify-content: space-between;
   }
 
   /* 제목 */
-  .subNews_contentTitle h1{
+  .subfaq_contentTitle h1{
     font-size: 28px;
     margin-left: 5%;
   }
 
   /* 경로 */
-  .subNews_contentTitle .subNews_route{
+  .subfaq_contentTitle .subfaq_route{
     display: none;
   }
 
   /* 아이콘 */
-  .subNews_contentTitle .subNews_link{
+  .subfaq_contentTitle .subfaq_link{
     margin: 0 8% 0 6%;
   }
 
   /* 검색창 */
-  .subNews_search{
+  .subfaq_search{
     width: 90%;
   }
   /* 선택창 */
-  .subNews_search select{font-size: 13px; width: 30%;}
-  .subNews_search select option{font-size: 13px;}
+  .subfaq_search select{font-size: 13px; width: 30%;}
+  .subfaq_search select option{font-size: 13px;}
 
   /* 입력창 */
-  .subNews_search input{font-size: 14px; width: 60%;}
-  .subNews_search input::placeholder{font-size: 12px;}
+  .subfaq_search input{font-size: 14px; width: 60%;}
+  .subfaq_search input::placeholder{font-size: 12px;}
 
   /* 돋보기 */
-  .subNews_search button{
+  .subfaq_search button{
     width: 15%;
   }
 
-  /* 탭 메뉴 */
-  /* 테이블 */
-  .subNews_taps{
-    width: 93%;
-    margin: 0 auto;
-    height: auto;
-    
+
+
+  /* faq 아코디언 */
+
+
+  /* Q마크 */
+  .accordion_header>div:first-child{
+    margin-left: 0;
+  }
+  .accordion_header>div:first-child>span{
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+  /* 질문내용 */
+  .accordion_header>div:last-child{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 20px;
+    color: #535353;
+  }
+  /* 답변 */
+  .accordion_content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    border-top: 1px solid #ccc;
+    display: block;
+    background-color: #F5F5F5;
+    border-radius: 0 0 20px 20px;
+  }
+  /* A마크 */
+  .accordion_content>div:first-child{
+    padding: 10px 5px 0 10px;
+  }
+  .accordion_content>div:first-child>span{
+    display: block;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid crimson;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: crimson;
+  }
+  /* 답변내용 */
+  .accordion_content>div:last-child{
+    padding: 5px 10px 10px 20px;
+    color: #323232;
+    font-size: 13px;
   }
 
-  #subNews_table{
-    width: 100%;
-  }
-  /* thead */
-  #subNews_table thead{
-    width: 100%;
-  }
-  #subNews_table thead tr{
-    width: 100%;
-    display: inline-block;
-    
-  }
-  #subNews_table thead tr td{
-    
-    font-size: 12px;
-    width: inherit;
-    height: auto;
-    display: inline-block;
-    padding: 5px 0;
-  }
-  /* 번호 */
-  #subNews_table thead tr td:nth-child(1){
-    width: 8%;
-    
-    
-  }
-  #subNews_table thead tr td:nth-child(2){
-    width: 45%;
-    
-    
-  }
-  #subNews_table thead tr td:nth-child(3){
-    width: 15%;
-    
-  }
-  /* 조회수 */
-  #subNews_table thead tr td:nth-child(4){
-    display: none;
-  }
-  #subNews_table thead tr td:nth-child(5){
-    width: 13%;
-    
-  }
-  #subNews_table thead tr td:nth-child(6){
-    width: 8%;
-    
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-  }
+
+
+
+
+
+
+
 
   
-
-  /* tbody */
-  #subNews_table tbody{
-    width: 100%;
-    
-  }
-  #subNews_table tbody tr{
-    display: inline-block;
-    width: inherit;
-    
-    padding: 0;
-    margin: 0;
-
-  }
-  #subNews_table tbody tr td{
-    font-size: 14px;
-    width: 100%;
-    display: inline-block;
-    padding: 0;
-    height: 30px;
-    line-height: 30px;
-    font-size: 12px;
-  }
-  
-
-  #subNews_table tbody tr td:nth-child(1){
-    width: 8%;
-    
-    position: relative;
-  }
-  #subNews_table tbody tr td:nth-child(1) img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 13px;
-    height: 13px;
-    
-  }
-
-  #subNews_table tbody tr td:nth-child(2){
-    width: 45%;
-    
-    
-    
-    
-  }
-  #subNews_table tbody tr td:nth-child(2) a{
-    width: 100%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-
-  }
-  #subNews_table tbody tr td:nth-child(3){
-    width: 15%; 
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    
-    
-  }
-  #subNews_table tbody tr td:nth-child(4){
-    display: none;
-  }
-  #subNews_table tbody tr td:nth-child(5){
-    width: 13%;
-    
-    
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  #subNews_table tbody tr td:nth-child(6){
-    width: 8%;
-    
-    position: relative;    
-  }
-  #subNews_table tbody tr td:nth-child(6) a{
-    position: absolute;
-    width: 50%;
-    height: 65%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    
-  }
-  #subNews_table tbody tr td:nth-child(6) a img{
-    width: 100%;
-    height: 100%;
-    
-  }
-  
-  
-  /* 제목 라인 */
-  #subNews_table tbody tr td:nth-child(2){
-    text-indent: 0;
-  }
-
   /* 페이지네이션 번호 */
   .pagination{
     top: 98%;
@@ -379,7 +281,8 @@
     width: 20px;
     height: 20px;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 500;
   }
 
 
@@ -628,7 +531,7 @@
   }
 
 
-  /* subNews_title 제목부분 */
+  /* subfaq_title 제목부분 */
   .webTitle{
     display: none;
   }
@@ -639,241 +542,137 @@
   
 
   /* 메인 콘텐츠 */
-  .subNews_inner{
+  .subfaq_inner{
     width: 100%;
     height: auto;
   }
 
-  .subNews_community{
+  .subfaq_community{
     display: none;
   }
 
   /* 공지사항 콘텐츠 */
-  .subNews_content{
+  .subfaq_content{
     width: 95%;
     height: auto;
   }
 
   /* 공지사항 콘텐츠 제목 */
-  .subNews_contentTitle{
+  .subfaq_contentTitle{
     display: flex;
     justify-content: space-between;
   }
 
   /* 제목 */
-  .subNews_contentTitle h1{
+  .subfaq_contentTitle h1{
     font-size: 28px;
     margin-left: 5%;
   }
 
   /* 경로 */
-  .subNews_contentTitle .subNews_route{
+  .subfaq_contentTitle .subfaq_route{
     display: none;
   }
 
   /* 아이콘 */
-  .subNews_contentTitle .subNews_link{
+  .subfaq_contentTitle .subfaq_link{
     margin: 0 8% 0 6%;
   }
 
   /* 검색창 */
-  .subNews_search{
+  .subfaq_search{
     width: 90%;
     height: auto;
     flex-direction: column;
     gap: 5px;
   }
   /* 선택창 */
-  .subNews_search select{
+  .subfaq_search select{
     font-size: 13px; width: 80%;
     border-radius: 50px;
     height: 30px;
   }
-  .subNews_search select option{font-size: 13px;}
+  .subfaq_search select option{font-size: 13px;}
 
   /* 입력창 */
-  .subNews_search input{
+  .subfaq_search input{
     font-size: 14px; width: 80%;
     height: 30px;
     border-radius: 50px;
     padding: 0 10px;
   }
-  .subNews_search input:focus{
+  .subfaq_search input:focus{
     border: 1px solid #45495B;
   }
-  .subNews_search input::placeholder{font-size: 12px;}
+  .subfaq_search input::placeholder{font-size: 12px;}
 
   /* 돋보기 */
-  .subNews_search button{
+  .subfaq_search button{
     width: 80%;
     height: 30px;
     border-radius: 50px;
     margin-left: 0;
   }
-  .subNews_search button i{
+  .subfaq_search button i{
     font-size: 15px;
   }
 
-  /* 탭 메뉴 */
-  /* 테이블 */
-  .subNews_taps{
-    width: 93%;
-    margin: 0 auto;
-    height: auto;
-    
-  }
+  /* 아코디언 */
+  /* faq 아코디언 */
 
-  #subNews_table{
-    width: 100%;
+
+  /* Q마크 */
+  .accordion_header>div:first-child{
+    margin-left: 0;
   }
-  /* thead */
-  #subNews_table thead{
-    width: 100%;
+  .accordion_header>div:first-child>span{
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
   }
-  #subNews_table thead tr{
-    width: 100%;
-    display: inline-block;
-    
-  }
-  #subNews_table thead tr td{
-    
+  /* 질문내용 */
+  .accordion_header>div:last-child{
     font-size: 12px;
-    width: inherit;
-    height: auto;
-    display: inline-block;
-    padding: 5px 0;
+    line-height: 20px;
+    padding: 0 20px;
+    color: #535353;
   }
-  /* 번호 */
-  #subNews_table thead tr td:nth-child(1){
-    width: 8%;
-    
-    
-  }
-  #subNews_table thead tr td:nth-child(2){
-    width: 45%;
-    
-    
-  }
-  #subNews_table thead tr td:nth-child(3){
-    width: 15%;
-    
-  }
-  /* 조회수 */
-  #subNews_table thead tr td:nth-child(4){
-    display: none;
-  }
-  #subNews_table thead tr td:nth-child(5){
-    width: 13%;
-    
-  }
-  #subNews_table thead tr td:nth-child(6){
-    width: 8%;
-    
-    text-overflow: ellipsis;
+  /* 답변 */
+  .accordion_content{
+    max-height: 0;
     overflow: hidden;
-    white-space: nowrap;
+    transition: max-height 0.3s ease;
+    border-top: 1px solid #ccc;
+    display: block;
+    background-color: #F5F5F5;
+    border-radius: 0 0 20px 20px;
   }
-
-  
-
-  /* tbody */
-  #subNews_table tbody{
-    width: 100%;
-    
+  /* A마크 */
+  .accordion_content>div:first-child{
+    padding: 10px 5px 0 10px;
   }
-  #subNews_table tbody tr{
-    display: inline-block;
-    width: inherit;
-    
-    padding: 0;
-    margin: 0;
-
+  .accordion_content>div:first-child>span{
+    display: block;
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid crimson;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: crimson;
   }
-  #subNews_table tbody tr td{
-    font-size: 14px;
-    width: 100%;
-    display: inline-block;
-    padding: 0;
-    height: 30px;
-    line-height: 30px;
+  /* 답변내용 */
+  .accordion_content>div:last-child{
+    padding: 5px 10px 10px 20px;
+    color: #323232;
     font-size: 12px;
   }
-  
 
-  #subNews_table tbody tr td:nth-child(1){
-    width: 8%;
-    
-    position: relative;
-  }
-  #subNews_table tbody tr td:nth-child(1) img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 10px;
-    height: 10px;
-    
-  }
 
-  #subNews_table tbody tr td:nth-child(2){
-    width: 45%;
-    
-    
-    
-    
-  }
-  #subNews_table tbody tr td:nth-child(2) a{
-    width: 100%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
 
-  }
-  #subNews_table tbody tr td:nth-child(3){
-    width: 15%; 
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    
-    
-  }
-  #subNews_table tbody tr td:nth-child(4){
-    display: none;
-  }
-  #subNews_table tbody tr td:nth-child(5){
-    width: 13%;
-    
-    
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  #subNews_table tbody tr td:nth-child(6){
-    width: 8%;
-    
-    position: relative;    
-  }
-  #subNews_table tbody tr td:nth-child(6) a{
-    position: absolute;
-    width: 50%;
-    height: 65%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    
-  }
-  #subNews_table tbody tr td:nth-child(6) a img{
-    width: 100%;
-    height: 100%;
-    
-  }
-  
-  
-  /* 제목 라인 */
-  #subNews_table tbody tr td:nth-child(2){
-    text-indent: 0;
-  }
+
 
   /* 페이지네이션 번호 */
   .pagination{

@@ -1,0 +1,679 @@
+<ul class="subNews_tap_menu">
+            <li><a href="#subNews_tabs_1">전체</a></li>
+            <li><a href="#subNews_tabs_2">일반공지</a></li>
+            <li><a href="#subNews_tabs_3">법정직무교육</a></li>
+            <li><a href="#subNews_tabs_4">국기기간전략훈련</a></li>
+            <li><a href="#subNews_tabs_5">기능인력양성훈련</a></li>
+            <li><a href="#subNews_tabs_6">채용공고</a></li>
+          </ul>
+          <div id="subNews_tap_content">
+            <div id="subNews_tabs_1"><!-- 전체 -->
+              <table id="tableNews01">
+                <thead>
+                  <tr>
+                    <td>번호</td>
+                    <td>제목</td>
+                    <td>구분</td>
+                    <td>조회수</td>
+                    <td>등록일</td>
+                    <td>첨부파일</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="images/pin-red.png"></td>
+                    <td>ODA 국제협력사업 전문가 인력풀 모집 안내</td>
+                    <td>일반공지</td>
+                    <td>802</td>
+                    <td>2024.06.03</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/pin-red.png"></td>
+                    <td>사업주 훈련지원금 지급 방법 변경 안내</td>
+                    <td>일반공지</td>
+                    <td>343</td>
+                    <td>2024.04.09</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/pin-red.png"></td>
+                    <td>건설기술교육원(본원) 우수훈련기관 선정</td>
+                    <td>일반공지</td>
+                    <td>3130</td>
+                    <td>2022.01.13</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/pin-red.png"></td>
+                    <td>[공지] 건설기술인 교육훈련 Q＆A집 배포</td>
+                    <td>일반공지</td>
+                    <td>4175</td>
+                    <td>2021.10.19</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>건설기술교육원, ‘사업주 직업능력개발훈련 우수사례 경진대회’에서 우수상 수상</td>
+                    <td>일반공지</td>
+                    <td>66</td>
+                    <td>2024.10.11</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>건설기술교육원 대학생 서포터즈 모집 안내</td>
+                    <td>일반공지</td>
+                    <td>502</td>
+                    <td>2024.05.22</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>"중소 건설업체 ESG 경영" 원격콘텐츠 무료 제공</td>
+                    <td>일반공지</td>
+                    <td>849</td>
+                    <td>2022.12.21</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>건설기술교육정보센터 서비스 오픈</td>
+                    <td>일반공지</td>
+                    <td>801</td>
+                    <td>2022.09.28</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>[필독] 과태료 부과 유예 대상 교육수료 관련 안내</td>
+                    <td>일반공지</td>
+                    <td>9774</td>
+                    <td>2021.12.22</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>2021년 녹색제품 구매계획 공표</td>
+                    <td>일반공지</td>
+                    <td>192</td>
+                    <td>2021.06.22</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="subNews_tabs_2"><!-- 일반공지 -->
+              <table id="tableNews02">
+                <table id="tableNews01">
+                  <thead>
+                    <tr>
+                      <td>번호</td>
+                      <td>제목</td>
+                      <td>구분</td>
+                      <td>조회수</td>
+                      <td>등록일</td>
+                      <td>첨부파일</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><img src="images/pin-red.png"></td>
+                      <td>ODA 국제협력사업 전문가 인력풀 모집 안내</td>
+                      <td>일반공지</td>
+                      <td>802</td>
+                      <td>2024.06.03</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/pin-red.png"></td>
+                      <td>사업주 훈련지원금 지급 방법 변경 안내</td>
+                      <td>일반공지</td>
+                      <td>343</td>
+                      <td>2024.04.09</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/pin-red.png"></td>
+                      <td>건설기술교육원(본원) 우수훈련기관 선정</td>
+                      <td>일반공지</td>
+                      <td>3130</td>
+                      <td>2022.01.13</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/pin-red.png"></td>
+                      <td>[공지] 건설기술인 교육훈련 Q＆A집 배포</td>
+                      <td>일반공지</td>
+                      <td>4175</td>
+                      <td>2021.10.19</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>건설기술교육원, ‘사업주 직업능력개발훈련 우수사례 경진대회’에서 우수상 수상</td>
+                      <td>일반공지</td>
+                      <td>66</td>
+                      <td>2024.10.11</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>건설기술교육원 대학생 서포터즈 모집 안내</td>
+                      <td>일반공지</td>
+                      <td>502</td>
+                      <td>2024.05.22</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>"중소 건설업체 ESG 경영" 원격콘텐츠 무료 제공</td>
+                      <td>일반공지</td>
+                      <td>849</td>
+                      <td>2022.12.21</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>건설기술교육정보센터 서비스 오픈</td>
+                      <td>일반공지</td>
+                      <td>801</td>
+                      <td>2022.09.28</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>[필독] 과태료 부과 유예 대상 교육수료 관련 안내</td>
+                      <td>일반공지</td>
+                      <td>9774</td>
+                      <td>2021.12.22</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>2021년 녹색제품 구매계획 공표</td>
+                      <td>일반공지</td>
+                      <td>192</td>
+                      <td>2021.06.22</td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>                                
+              </table>
+            </div>
+            <div id="subNews_tabs_3"><!-- 법정직무교육 -->
+              <table id="tableNews03">
+                <thead>
+                  <tr>
+                    <td>번호</td>
+                    <td>제목</td>
+                    <td>구분</td>
+                    <td>조회수</td>
+                    <td>등록일</td>
+                    <td>첨부파일</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="images/pin-red.png"></td>
+                    <td>[공지]건설기술인 교육제도 변경사항 안내</td>
+                    <td>법정직무교육</td>
+                    <td>8799</td>
+                    <td>2021.04.01</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/pin-red.png"></td>
+                    <td>[경력직채용]온라인 콘텐츠 제작 경력 직원 채용 안내</td>
+                    <td>법정직무교육</td>
+                    <td>461</td>
+                    <td>2020.07.21</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/pin-red.png"></td>
+                    <td>[공개모집]교육 심의위원 모집 공고</td>
+                    <td>법정직무교육</td>
+                    <td>599</td>
+                    <td>2020.07.03</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/pin-red.png"></td>
+                    <td>[교육개설안내] 2차 성능평가과정 원격교육과정 개설</td>
+                    <td>법정직무교육</td>
+                    <td>102</td>
+                    <td>2020.04.27</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>53</td>
+                    <td>[교육개설안내]성능평가과정 원격교육과정 개설</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2020.04.21</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>52</td>
+                    <td>지하안전영향평가교육 중단 안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2020.03.18</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>51</td>
+                    <td>[긴급공지] 도로포장 기술교육 중단 안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2020.02.25</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>50</td>
+                    <td>신종 코로나바이러스 관련 공지사항</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2020.02.03</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>49</td>
+                    <td>전문교육 3과정 신규 개설 안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2019.12.17</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>48</td>
+                    <td>2020년도 건설기술인 교육일정 안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2019.12.11</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>47</td>
+                    <td>[신규교육] 스마트건설전문과정 개설안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2019.07.23</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>46</td>
+                    <td>BIM 개념과 이해 세미나 실시</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2019.06.03</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>45</td>
+                    <td>[신규채용] 교육행정 신입직원 채용공고</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2019.04.30</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>44</td>
+                    <td>사업주지원금 비율 변경안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2019.01.24</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>43</td>
+                    <td>건설기술인 권리헌장</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2019.01.16</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>42</td>
+                    <td>2019년도 교육일정표(추가2_수정후)</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2018.12.03</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>41</td>
+                    <td>[교육안내] 해외인프라 PM전문과정 개설안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2018.11.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>40</td>
+                    <td>사이버 교육 개편안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2018.10.01</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>39</td>
+                    <td>윤태국교수, 가산동 지반침하관련 방송 인터뷰</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2018.09.03</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>38</td>
+                    <td>서울 강남분원 (구)사옥 원상복구 공사 입찰공고</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2018.08.13</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>37</td>
+                    <td>공무관리 전문과정 신규교육 개설안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2018.07.25</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>36</td>
+                    <td>KICTE CON-NECT Program 2018 (지원자 모집 중)</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2018.07.18</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>35</td>
+                    <td>2018년 BIM건축특별전문과정(Revit) 개설 안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2018.04.16</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>34</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>33</td>
+                    <td>교육원 무선네트워크 구축공사 입찰공고</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2017.12.28</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>32</td>
+                    <td>	2018년도 교육일정표(건설기술자직무교육)</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2017.12.11</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>31</td>
+                    <td>추석연휴 휴무안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2017.09.26</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>30</td>
+                    <td>해외건설공사실무과정 개설안내(10.30∼11.3) 교육만족도 100%</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2017.09.13</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>29</td>
+                    <td>SBS드라마 `조작` 교육원 장소협조</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2017.07.27</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>28</td>
+                    <td>건설기술교육원 신입 회계직 채용</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2017.06.26</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>27</td>
+                    <td>부산 지역 신규 교육 안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2017.02.02</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>26</td>
+                    <td>전병국 제10대 건설기술교육원장 취임</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2016.11.30</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>25</td>
+                    <td>제3차 건설사업관리(CM)전문가자격 통합검정안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2016.10.10</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>24</td>
+                    <td>제1회 건설사업관리사(CMP) 자격검정 시험안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2016.10.04	</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>23</td>
+                    <td>제2차 건설사업관리(CM)전문가자격통합검정</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2016.06.01</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>22</td>
+                    <td>2016년 재직자 참여가능 정부시책교육과정 안내</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>21</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>19</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>17</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>[국비]2011 해외플랜트 브로슈어</td>
+                    <td>법정직무교육</td>
+                    <td>1512</td>
+                    <td>2011.04.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>교육비 환불요청 양식</td>
+                    <td>법정직무교육</td>
+                    <td>2266</td>
+                    <td>2011.03.10</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>2011년도 교육일정</td>
+                    <td>법정직무교육</td>
+                    <td>2266</td>
+                    <td>2010.12.06</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>서울.강북분원 확장이전 안내</td>
+                    <td>법정직무교육</td>
+                    <td>3466</td>
+                    <td>2010.03.24</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>학경력 감리원 제도개선 안내</td>
+                    <td>법정직무교육</td>
+                    <td>2266</td>
+                    <td>2009.02.02</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>건설기술자및감리원 승급교육안내</td>
+                    <td>법정직무교육</td>
+                    <td>2502</td>
+                    <td>2008.09.12</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>건설기술관리법 3단비교(2008.2.29)</td>
+                    <td>법정직무교육</td>
+                    <td>1502</td>
+                    <td>2008.03.18	</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>경력인정방법및절차기준</td>
+                    <td>법정직무교육</td>
+                    <td>1289</td>
+                    <td>2008.03.04</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>제증명서 신청양식(수료증,계산서)</td>
+                    <td>법정직무교육</td>
+                    <td>1801</td>
+                    <td>2007.02.06</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>최초 및 승급교육안내</td>
+                    <td>법정직무교육</td>
+                    <td>2382</td>
+                    <td>2007.02.06</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>기술등급제도 변경안내</td>
+                    <td>법정직무교육</td>
+                    <td>1818</td>
+                    <td>2007.02.06</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="subNews_tabs_4"></div><!-- 국기기간전략훈련 -->
+            <div id="subNews_tabs_5"></div><!-- 기능인력양성훈련 -->
+            <div id="subNews_tabs_6"></div><!-- 채용공고 -->
+          </div>
