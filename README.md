@@ -53,19 +53,19 @@
 
 |                               메인 페이지                               |                               메인 페이지 - 테블릿                       |                               메인 페이지 - 모바일                       |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------:  | :---------------------------------------------------------------------:  |
-| <img src="images/mainPage.png" alt="Sample Page" height="250px" /> | <img src="images/mainPage_tablet.png" alt="Sample Page" height="250px" /> | <img src="images/mainPage_mobile" alt="Sample Page" height="250px" /> |
+| <img src="images/mainPage.png" alt="Sample Page" height="250px" /> | <img src="images/mainPage_tablet.png" alt="Sample Page" height="250px" /> | <img src="images/mainPage_mobile.png" alt="Sample Page" height="250px" /> |
 <br />
 
 |                               서브 페이지(1) - 메인                         |                               서브 페이지(1) - 테블릿                              |                               서브 페이지(1) -모바일                               |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| <img src="images/subPage_subNews.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_tablet.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_mobile.png" alt="Sample Page" height="250px" /> |
+| <img src="images/subPage_subNews.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_subNews_tablet.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_subNews_mobile.png" alt="Sample Page" height="250px" /> |
 <br />
 
 
 
 |                               서브 페이지(2) -메인                               |                               서브 페이지(2) -테블릿                               |                               서브 페이지(2) -모바일                               |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| <img src="images/subPage_mobile.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_mobile.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_mobile.png" alt="Sample Page" height="250px" /> |
+| <img src="images/subPage_faq.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_faq_tablet.png" alt="Sample Page" height="250px" /> | <img src="images/subPage_faq_mobile.png" alt="Sample Page" height="250px" /> |
 
 
 <br />
