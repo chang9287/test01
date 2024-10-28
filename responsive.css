@@ -244,10 +244,7 @@
     flex-wrap: wrap;
     gap: 1px;
   }
-  .edu_tap_menu01 li{
-    white-space: wrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+  .edu_tap_menu01 li{    
   }
   .edu_tap_menu01 li a{
     font-size: 17px;
@@ -255,11 +252,10 @@
     padding: 0 1px;
     letter-spacing: -0.5px;
     display: block;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
   }
-  .active em{}
+  .active em{
+    
+  }
 
   /* 큰 콘텐츠 */
   #edu_tap_content01{
@@ -444,47 +440,6 @@
     transition: 0.3s;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    /* info-faq 부분 */
    .info-faq{
     width: 100%;
@@ -499,6 +454,7 @@
     background-image: url(images/mobile_info_faq_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
   }
   .info-faq>img{
     height: 100%;
@@ -999,6 +955,25 @@
   }
 }
 
+/* 팝업 창 크기 조절 */
+@media screen and (max-width: 480px){
+  .pop_up{
+    width: 80%
+}
+
+
+
+/* education 큰 탭 메뉴 글자 크기 조절*/
+@media screen and (max-width: 430px){
+  .edu_tap_menu01 li a{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 340px){
+  .edu_tap_menu01 li a{
+    font-size: 13px;
+  }
+}
 
 @media screen and (max-width: 320px){
   header{}
@@ -1141,7 +1116,7 @@
 
   /* 팝업창 */
   .pop_up{
-    width: 60%;
+    width: 90%;
     right: 50%;
     transform: translate(50%, -50%);
     z-index: 110;
@@ -1247,21 +1222,16 @@
     gap: 1px;
   }
   .edu_tap_menu01 li{
-    white-space: wrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    
   }
   .edu_tap_menu01 li a{
-    font-size: 17px;
+    font-size: 12px;
     height: 50px;
     padding: 0 1px;
     letter-spacing: -0.5px;
     display: block;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
   }
-  .active em{}
+  .active:nth-child(1) em{}
 
   /* 큰 콘텐츠 */
   #edu_tap_content01{
@@ -1421,6 +1391,8 @@
     width: 100%;
     height: auto;
     padding-top: 25px;
+    
+    
     background-image: url(images/mobile_info_faq_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1554,6 +1526,7 @@
     width: 95%;
     height: auto;
     margin: 0 auto;
+    
   }
 
   /* 아코디언 */
