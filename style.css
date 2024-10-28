@@ -546,8 +546,8 @@ header{
 /* 온라인교육 */
 .edu_btn{
   position: absolute;
-  right: 370px;
-  top: 255px;
+  right: 20%;
+  top: 30%;
   background-color: #fff;
   border: none;
 }
@@ -825,15 +825,14 @@ header{
 /* 탭 윗 메뉴 */
 .news_tap_menu{
   width: 800px;
-  height: 60px;
-  line-height: 60px;
   display: flex;
 }
 .news_tap_menu li{
+  height: 60px;
+  line-height: 60px;
   list-style: none; 
   flex: 1; 
   text-align: center;
-
 }
 .news_tap_menu li a{
   display: block;
@@ -1031,7 +1030,7 @@ header{
 .info-faq_banner .bannerSwiper .swiper-wrapper .swiper-slide{}
 .info-faq_banner .bannerSwiper .swiper-wrapper .swiper-slide img{
   width: 100%;
-  height: 305px;
+  
   background-repeat: no-repeat;
 }
 
@@ -1147,7 +1146,6 @@ header{
 
 /* 아코디언 */
 .info-faq_accordion{
-  
   height: 550px;
   margin-top: 30px;
   border-radius: 20px;
@@ -1197,156 +1195,97 @@ header{
 
 
 
-.accordion_content{
-  padding: 0 10px;
+/* 아코디언 */
+.info-faq_accordionContainer{}
+
+#accordion_container{
   margin: 0 auto;
+  width: 90%;
 }
-
-.accordion_content .accordion_head{
-  width: 100%;
-  cursor: pointer;
-  height: 35px;
-}
-.accordion_content .accordion_head i{
-  
-}
-.accordion_content .accordion_head span{
-  font-size: 16px;
-  line-height: 35px;
-}
-
-/* Q마크 */
-.accordion_content .accordion_head i:first-child{
-  margin-left: 5px;
-  margin-right: 5px;
-  font-size: 22px;
-  color: #084B93;
-}
-
-/* 화살표 */
-.accordion_content .accordion_head i:last-child{
-  
-}
-/* .accordion_content .accordion_head:active i:last-child{
-  transform: rotate(180deg);
-} */
-
-
 .accordion_text{
-  height: 0;
-  overflow: hidden;
-  font-size: 15px;
-  transition: 0.3s;
-  border-top: 2px solid #4d8ed4;
-  border-bottom: 2px solid #4d8ed4;
-  position: relative;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
   
-}
-.accordion_text i{
-  font-size: 22px;
-  position: absolute;
-  top: 10px;
-  left: 15px;
-  color: orange;
-  
-}
-.accordion_text p{
-  font-size: 16px;
-  width: 88%;
-  padding: 15px 0;
-  
-  position: absolute;
-  right: 0;
-  margin-right: 15px;
 }
 
-/* active */
-/* 화살표 회전 속도 */
-.fa-angle-up{
+/* 질문 */
+.accordion_header{
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  padding: 10px 0;
+  font-size: 15px;
+}
+/* Q마크 */
+.accordion_header>div:first-child{
+  margin: 0 10px;
+}
+.accordion_header>div:first-child>span{
+  border: 2px solid crimson;
+  display: block;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: crimson;
+  color: #fff;
   transition: 0.5s;
 }
 
-/* 화살표 180도 회전 */
-.fa-angle-up.active{
-  transform: rotate(180deg);
+
+
+/* 질문내용 */
+.accordion_header>div:last-child{
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0 20px;
+  color: #535353;
 }
 
-
-
-
-
-/* 아코디언 텍스트 세부설정 - 첫 번째 */
-.info-faq_accordion>div:nth-child(2) .accordion_text p a{
-  margin-left: 15px;
+/* 답변 */
+.accordion_content{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-top: 1px solid #ccc;
+  display: flex;
+  background-color: #F5F5F5;
+  border-radius: 0 0 20px 20px;
+  font-size: 11px;
 }
-
-
-/* 아코디언 텍스트 세부설정 - 두 번째 */
-.info-faq_accordion>div:nth-child(3) .accordion_text p a{
-  
-  margin-left: 15px;
+/* A마크 */
+.accordion_content>div:first-child{
+  padding: 10px 10px 0 10px;
 }
-.info-faq_accordion>div:nth-child(3) .accordion_text p a:nth-child(3){
+.accordion_content>div:first-child>span{
   display: block;
-  
-  padding-top: 10px;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid crimson;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: crimson;
 }
-.info-faq_accordion>div:nth-child(3) .accordion_text p a:nth-child(7){
-  display: block;
-  padding-bottom: 10px;
-}
-
-
-/* 아코디언 텍스트 세부설정 - 세 번째 */
-.info-faq_accordion>div:nth-child(4) .accordion_text p a{
-  margin-left: 10px;
-}
-.info-faq_accordion>div:nth-child(4) .accordion_text p em{
-  margin-left: 20px;
-  font-style: normal;
-  
-}
-.info-faq_accordion>div:nth-child(4) .accordion_text p a:nth-child(3){
-  display: block;
-  padding-top: 5px;
-
-}
-.info-faq_accordion>div:nth-child(4) .accordion_text p em:nth-child(6){
-  display: block;
-  padding-bottom: 5px;
-
+/* 답변내용 */
+.accordion_content>div:last-child{
+  padding: 10px 10px;
+  color: #323232;
 }
 
-
-/* 아코디언 텍스트 세부설정 - 네 번째 */
-.info-faq_accordion>div:nth-child(5) .accordion_text p a{
-  margin-left: 10px;
+.active .accordion_content{
+  max-height: 500px;
 }
-.info-faq_accordion>div:nth-child(5) .accordion_text p a:nth-child(2){
-  display: block;
-  padding-top: 10px;
-}
-.info-faq_accordion>div:nth-child(5) .accordion_text p a:nth-child(3){
-  display: block;
-  padding-bottom: 10px;
-
+.accordion_content p{
+  margin: 10px 0;
 }
 
-
-/* 아코디언 텍스트 세부설정 - 다섯 번째 */
-.info-faq_accordion>div:nth-child(6) .accordion_text p b{
-  margin-left: 10px;
-}
-.info-faq_accordion>div:nth-child(6) .accordion_text p b>a{
-  color: black;
-}
-.info-faq_accordion>div:nth-child(6) .accordion_text p>a{
-  margin-left: 15px;
-}
-.info-faq_accordion>div:nth-child(6) .accordion_text p em{
-  margin-left: 25px;
-  font-style: normal;
-}
 
 
 /* document 부분 */

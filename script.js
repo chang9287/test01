@@ -218,36 +218,115 @@ var swiper = new Swiper(".bannerSwiper", {
   autoplay:{delay : 3000}
 });
 
-
+//<i class="fa-solid fa-angle-up"></i>
 //아코디언
-const accordionHeads = document.querySelectorAll('.accordion_head');
+let accordionData = [
+  {
+    title: `<div><span>Q</span></div> <div>건설기술인 법정직무교육이란 무엇인가요?</div> `,
+    content: `
+    <div><span>A</span></div>
+    <div>
+    · 건설기술인 법정직무교육이란 「건설기술진흥법」과 관계법령에 따라<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;‘건설기술인’으로서 업무를 수행하려면 의무적으로 받아야 하는 교육입니다.<br><br>
 
-accordionHeads.forEach(function(head) {
-  head.addEventListener('click', function() {
-    let content = head.nextElementSibling; // 바로 다음 요소 선택
-    let arrowIcon = head.querySelector('i.fa-angle-up');
+    · 관계법령<br>
+    ① 「건설기술진흥법」 제2조 제8호, 제20조<br>
+    ② 「건설기술진흥법 시행령」 제42조, 제43조, 제121조, 별표3, 별표4<br>
+    ③ 「건설기술진흥법 시행규칙」 제16조, 제17조
+    </div>
+    `
+  },
+  {
+    title: `<div><span>Q</span></div> <div>구직등록확인증은 어디서 발급받나요?</div>`,
+    content: `
+    <div><span>A</span></div>
+    <div>
+    구직등록확인증은 가까운 고용노동부 고용센터를 방문하셔서<br>
+    신청하시면 바로 발급이 가능하며, 워크넷에서도 회원가입 후 발급이 가능합니다.
+    </div>
+    `
+  },
+  {
+    title: `<div><span>Q</span></div> <div>거주지가 지방인데 교육을 받을 수 있나요?</div>`,
+    content: `
+    <div><span>A</span></div>
+    <div>
+    지방거주자를 위해 합숙시설을 완비하고 있어 이용이 가능합니다.<br><br>
+    
+    이용할 수 있는 대상은<br>
+    ⁕ 이용대상 : 국가기간·전략산업직종 (장기 주간과정) 훈련 교육희망자<br>
+    ⁕ 이&nbsp; 용&nbsp;  료 : 무료 (전액)<br>
+    ⁕ 이용방법 : 교육신청시 사전에 신청 또는 입교후 신청가능<br>
+    ⁕ 혜 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;택 : 3식 제공 및 숙소(4인 1실) 제공
+    </div>
+    `
+  },
+  {
+    title: `<div><span>Q</span></div> <div>정말 무료인가요? 본인 부담금은 없습니까?</div>`,
+    content: `
+    <div><span>A</span></div>
+    <div>
+    전액 국비지원 또는 단체에서 지원이 가능한 교육은<br>
+    ⁕ 국가기간·전략산업직종훈련(장기, 5개월 주간과정)<br>
+    &nbsp;&nbsp;&nbsp;- 특수용접, 건축설비, 건축목공, 건축리모델링<br><br>
+    ⁕ 건설일용근로자 기능향상지원 훈련<br>
+    &nbsp;&nbsp;&nbsp;- 배관(1개월 주간과정)<br>
+    &nbsp;&nbsp;&nbsp;- 배관 + 일반용접(2개월, 야간과정)
+    </div>
+    `
+  },
+  {
+    title: `<div><span>Q</span></div> <div>실습시 작업복이 지급되나요?</div>`,
+    content: `
+    <div><span>A</span></div>
+    <div>
+    실습시 착용할 작업복은 아래 교육대상자에게 만 지급됩니다.<br><br>
 
-    // 모든 아코디언을 접음
-    document.querySelectorAll('.accordion_text').forEach(function(text) {
-      text.style.height = '0';
-    });
-    document.querySelectorAll('.accordion_head i.fa-angle-up').forEach(function(icon) {
-      icon.classList.remove('active');
-    });
+    ⁕ 대상 : 국가기간전략산업직종훈련(5개월 장기/주간과정)<br>
+    ⁕ 개인 락커룸 제공<br><br>
 
-    // 클릭한 항목만 펼침
-    if (content.style.height === '0px' || content.style.height === '') {
-      content.style.height = content.scrollHeight + 'px';
-      arrowIcon.classList.add('active');
-    } else {
-      content.style.height = '0';
-      arrowIcon.classList.remove('active');
+    야간에 실시하는 계좌제 훈련(내일배움카드제) 또는 <br>
+    기타 1~2개월 단기교육에 참가자에게는 지급되지 않습니다.(개별 지참)
+    </div>
+    `
+  }
+]
+let accordionContainer = document.getElementById('accordion_container');
+let openedAccordion = null;
+
+accordionData.forEach(function(item, index){
+  let accordionBox = document.createElement('div');
+  accordionBox.classList.add('accordion_text');
+  if(index===0){
+    accordionBox.classList.add('active');
+    openedAccordion = accordionBox;
+  }
+  let accordionHeader = document.createElement('div');
+  accordionHeader.classList.add('accordion_header');
+  accordionHeader.innerHTML = item.title;
+
+  let accordionContent = document.createElement('div');
+  accordionContent.classList.add('accordion_content');
+  accordionContent.innerHTML = item.content;
+
+  accordionHeader.addEventListener('click', function(){
+    if(openedAccordion && openedAccordion !== accordionBox){
+      openedAccordion.classList.remove('active');
+    }
+    accordionBox.classList.toggle('active');
+    if(accordionBox.classList.contains('active')){
+      openedAccordion = accordionBox;
+    }else{
+      openedAccordion = null;
     }
   });
-});
+  accordionBox.appendChild(accordionHeader);
+  accordionBox.appendChild(accordionContent);
+  accordionContainer.appendChild(accordionBox);
+})
 
-//두 번째 질문 보이기
-document.querySelector('.info-faq_accordion>div:nth-child(3) .accordion_text').style.height = '244px'
+
+
 
 
 
