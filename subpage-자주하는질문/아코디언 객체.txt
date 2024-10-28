@@ -1,0 +1,211 @@
+자바스크립트 아코디언
+//아코디언
+let accordionData = [
+  {
+    question: "Q",
+    title: "중식제공 안내_강남분원",
+    answer: "A",
+    content: `
+    강남분원에서 진행하는 교육 참여시, ‘식신E식권’(노란색) APP을 통해 전자식권 형태로 식사를 제공합니다.
+    교육 참석 전, 해당 애플리케이션을 다운로드 해오시기 바랍니다.
+
+    교육과정 1일당 식권 포인트 10,000원을 지급하고 있습니다.
+
+    식권 포인트는 사용 시간 내, 조회되는 가맹점에서 분할 사용 가능하며,
+    사용 가능 시간은 09:30~ 15:00 까지 입니다. 사용 가능 시간이 지나면 잔여 포인트는 자동으로 소멸됩니다.
+
+    기타 로그인 및 사용방법 안내는 입교 당일 오리엔테이션 진행시 자세하게 안내드리오니 참고바랍니다.`
+  },
+  {
+    question: "Q",
+    title: "온라인교육 FAQ 관련 안내",
+    answer: "A",
+    content: `
+    · 법정직무교육(집체/원격) 
+      TEL : 032-463-4901 (인천), 02-565-0162 (강남)
+      FAX : 032-461-6524/032-463-5336 (인천), 02-565-0160 (강남)
+
+    · 산업안전보건법/시설물안전보건교육/기타법정교육
+      TEL : 032-460-0253
+      FAX : 032-468-3672
+
+    · 직업훈련교육(건축리모델링, 건축설비, 건축목공, 특수용접 등)
+      TEL : 032-460-0274
+      FAX : 032-460-0270
+
+    · 정부시책교육(플랜트, BIM, 스마트건설, 모듈러건축)
+      TEL : 032-460-0251(국제협력사업), 
+            0245, 0256, 0268(플랜트, BIM, 스마트건설, 모듈러건축)
+      FAX : 032-460-0132
+      `
+  },
+  {
+    question: "Q",
+    title: "교육과정별 담당 부서 연락처 안내",
+    answer: "A",
+    content: `
+    · 법정직무교육(집체/원격) 
+      TEL : 032-463-4901 (인천), 02-565-0162 (강남)
+      FAX : 032-461-6524/032-463-5336 (인천), 02-565-0160 (강남)
+
+    · 산업안전보건법/시설물안전보건교육/기타법정교육
+      TEL : 032-460-0253
+      FAX : 032-468-3672
+
+    · 직업훈련교육(건축리모델링, 건축설비, 건축목공, 특수용접 등)
+      TEL : 032-460-0274
+      FAX : 032-460-0270
+
+    · 정부시책교육(플랜트, BIM, 스마트건설, 모듈러건축)
+      TEL : 032-460-0251(국제협력사업), 
+            0245, 0256, 0268(플랜트, BIM, 스마트건설, 모듈러건축)
+      FAX : 032-460-0132
+      `
+  },
+  {
+    question: "Q",
+    title: "교육과정별 담당 부서 연락처 안내",
+    answer: "A",
+    content: `
+    · 법정직무교육(집체/원격) 
+      TEL : 032-463-4901 (인천), 02-565-0162 (강남)
+      FAX : 032-461-6524/032-463-5336 (인천), 02-565-0160 (강남)
+
+    · 산업안전보건법/시설물안전보건교육/기타법정교육
+      TEL : 032-460-0253
+      FAX : 032-468-3672
+
+    · 직업훈련교육(건축리모델링, 건축설비, 건축목공, 특수용접 등)
+      TEL : 032-460-0274
+      FAX : 032-460-0270
+
+    · 정부시책교육(플랜트, BIM, 스마트건설, 모듈러건축)
+      TEL : 032-460-0251(국제협력사업), 
+            0245, 0256, 0268(플랜트, BIM, 스마트건설, 모듈러건축)
+      FAX : 032-460-0132
+      `
+  },
+  {
+    question: "Q",
+    title: "교육과정별 담당 부서 연락처 안내",
+    answer: "A",
+    content: `
+    · 법정직무교육(집체/원격) 
+      TEL : 032-463-4901 (인천), 02-565-0162 (강남)
+      FAX : 032-461-6524/032-463-5336 (인천), 02-565-0160 (강남)
+
+    · 산업안전보건법/시설물안전보건교육/기타법정교육
+      TEL : 032-460-0253
+      FAX : 032-468-3672
+
+    · 직업훈련교육(건축리모델링, 건축설비, 건축목공, 특수용접 등)
+      TEL : 032-460-0274
+      FAX : 032-460-0270
+
+    · 정부시책교육(플랜트, BIM, 스마트건설, 모듈러건축)
+      TEL : 032-460-0251(국제협력사업), 
+            0245, 0256, 0268(플랜트, BIM, 스마트건설, 모듈러건축)
+      FAX : 032-460-0132
+      `
+  },
+  {
+    question: "Q",
+    title: "교육과정별 담당 부서 연락처 안내",
+    answer: "A",
+    content: `
+    · 법정직무교육(집체/원격) 
+      TEL : 032-463-4901 (인천), 02-565-0162 (강남)
+      FAX : 032-461-6524/032-463-5336 (인천), 02-565-0160 (강남)
+
+    · 산업안전보건법/시설물안전보건교육/기타법정교육
+      TEL : 032-460-0253
+      FAX : 032-468-3672
+
+    · 직업훈련교육(건축리모델링, 건축설비, 건축목공, 특수용접 등)
+      TEL : 032-460-0274
+      FAX : 032-460-0270
+
+    · 정부시책교육(플랜트, BIM, 스마트건설, 모듈러건축)
+      TEL : 032-460-0251(국제협력사업), 
+            0245, 0256, 0268(플랜트, BIM, 스마트건설, 모듈러건축)
+      FAX : 032-460-0132
+      `
+  },
+  {
+    question: "Q",
+    title: "교육과정별 담당 부서 연락처 안내",
+    answer: "A",
+    content: `
+    · 법정직무교육(집체/원격) 
+      TEL : 032-463-4901 (인천), 02-565-0162 (강남)
+      FAX : 032-461-6524/032-463-5336 (인천), 02-565-0160 (강남)
+
+    · 산업안전보건법/시설물안전보건교육/기타법정교육
+      TEL : 032-460-0253
+      FAX : 032-468-3672
+
+    · 직업훈련교육(건축리모델링, 건축설비, 건축목공, 특수용접 등)
+      TEL : 032-460-0274
+      FAX : 032-460-0270
+
+    · 정부시책교육(플랜트, BIM, 스마트건설, 모듈러건축)
+      TEL : 032-460-0251(국제협력사업), 
+            0245, 0256, 0268(플랜트, BIM, 스마트건설, 모듈러건축)
+      FAX : 032-460-0132
+      `
+  },
+  {
+    question: "Q",
+    title: "교육과정별 담당 부서 연락처 안내",
+    answer: "A",
+    content: `
+    · 법정직무교육(집체/원격) 
+      TEL : 032-463-4901 (인천), 02-565-0162 (강남)
+      FAX : 032-461-6524/032-463-5336 (인천), 02-565-0160 (강남)
+
+    · 산업안전보건법/시설물안전보건교육/기타법정교육
+      TEL : 032-460-0253
+      FAX : 032-468-3672
+
+    · 직업훈련교육(건축리모델링, 건축설비, 건축목공, 특수용접 등)
+      TEL : 032-460-0274
+      FAX : 032-460-0270
+
+    · 정부시책교육(플랜트, BIM, 스마트건설, 모듈러건축)
+      TEL : 032-460-0251(국제협력사업), 
+            0245, 0256, 0268(플랜트, BIM, 스마트건설, 모듈러건축)
+      FAX : 032-460-0132
+      `
+  },
+]
+
+let accordionContainer = document.getElementById('accordion_container');
+
+//객체를 아코디언 항목에 생성
+accordionData.forEach(function(e){
+  //accordion_item
+  let accordionBox = document.createElement('div');
+  accordionBox.classList.add('accordion_text');
+  //accordion_question
+  let accordionQestion = document.createElement('div')
+  accordionQestion.classList.add('accordion_question');
+  accordionQestion.textContent = e.question;
+  //accordion_header
+  let accordionHeader = document.createElement('div');
+  accordionHeader.classList.add('accordion_header');
+  accordionHeader.textContent = e.title;
+  //accordion_answer
+  let accordionAnswer = document.createElement('div')
+  accordionAnswer.classList.add('accordion_question');
+  accordionAnswer.textContent = e.answer;
+  //accordion_content
+  let accordionContent = document.createElement('div');
+  accordionContent.classList.add('accordion_content');
+  accordionContent.textContent = e.content;
+
+  accordionBox.appendChild(accordionQestion);
+  accordionBox.appendChild(accordionHeader);
+  accordionBox.appendChild(accordionAnswer);
+  accordionBox.appendChild(accordionContent);
+  accordionContainer.appendChild(accordionBox);
+})
